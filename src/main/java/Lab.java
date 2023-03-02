@@ -14,6 +14,12 @@ public class Lab {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
+            int x = 1;
+            int y = 0;
 
+            // Arithmetic Error
+            int z = x / y;
+
+            System.out.println(z);
     }
 }
